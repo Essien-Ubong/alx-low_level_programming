@@ -1,2 +1,9 @@
-#!/bin/bash
-gcc puts("Programming is like building a multilingual puzzle")
+#include<stdio.h>
+
+int main(void)
+	
+{
+	  char Mystr[] = "Programming is like building a multilingual puzzle\n";
+          puts(Mystr);
+          return (0);
+}
