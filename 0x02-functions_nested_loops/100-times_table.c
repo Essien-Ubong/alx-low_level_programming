@@ -11,14 +11,15 @@ void print_times_table(int n)
 
 	if (n < 0 || n > 15)
 		return;
-
 	while (a <= n)
 	{
 		for (b = 0; b <= n; b++)
 		{
 			rep = a * b;
 			if (b == 0)
+			{
 				_putchar('0' + rep);
+			}
 			else if (rep < 10)
 			{
 				_putchar(' ');
