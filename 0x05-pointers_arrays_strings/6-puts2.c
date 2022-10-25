@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * puts2 - prints a string, followed by a new line
@@ -19,4 +19,3 @@ void puts2(char *str)
 	}
 	_putchar('\n');
 }
-
